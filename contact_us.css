@@ -1,0 +1,20 @@
+img{
+    width: 100%;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+.row {
+    margin-top: 20px;
+
+}
+
+.email{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+iframe{
+    margin-top: 30px;
+}

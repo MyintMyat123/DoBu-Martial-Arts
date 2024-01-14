@@ -1,0 +1,83 @@
+
+
+
+:root {
+    --font-family-header: 'Roboto Condensed', sans-serif;
+}
+
+.footer-bg {
+    background-color: black;
+    margin-bottom: -8px;
+}
+
+.footer-column {
+    position: relative;
+    float: left;
+    width: 19%;
+    margin-left: 150px;
+    border-style: solid;
+
+  }
+
+  .footer-logo {
+    font-size: 35px;
+    font-family: myFirstFont;
+    text-align: center;
+    color: aliceblue;
+    line-height: 1;
+    }
+
+    .email_us {
+        font-size: 18px;
+        font-family: var(--font-family-header);
+        text-align: center;
+        color: rgb(182, 183, 194);
+        margin-top: 8px;
+        }
+
+.email{
+    font-size: 18px;
+    font-family: var(--font-family-header);
+    text-align: center;
+    color: rgb(182, 183, 194);
+    margin-top: 10px;
+    font-style: italic;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav_title {
+    font-size: 18px;
+    font-family: var(--font-family-header);
+    text-align: center;
+    color: aliceblue;
+    margin-top: 8px;
+}
+
+.nav_item{
+    font-size: 18px;
+    font-family: var(--font-family-header);
+    text-align: center;
+    color: rgb(182, 183, 194);
+    margin-top: 8px;
+    list-style-type: none;
+    padding: 0;
+}
+
+.nav_item a {
+    color: rgb(182, 183, 194);
+    font-family: var(--font-family-header);
+    text-decoration: none;
+}
+
+a:hover, a:active {
+    color: aliceblue;
+  }
+
+.bottom_message {
+
+        font-family: var(--font-family-header);
+        text-align: center;
+        color: aliceblue;
+}

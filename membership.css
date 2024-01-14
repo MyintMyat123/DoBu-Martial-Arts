@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+
+@font-face {
+    font-family: myFirstFont;
+    src: url(go3v2.ttf);
+}
+
+
+:root {
+    --font-family-header: 'Roboto Condensed', sans-serif;
+}
+
+.container {
+    margin-top: 20px;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+.row {
+    margin-top: 40px;
+}
+
+
+  .card {
+    border-style: solid;
+    border-radius: 10px;
+    
+  }
+
+  .intermediate {
+    background-color: orange;
+    text-align: center;
+    justify-content: center;
+    height: 60px;
+    align-items: center;
+    display: flex;
+  }
+
+  .basic {
+    background-color: rgb(179, 255, 0);
+    text-align: center;
+    justify-content: center;
+    height: 60px;
+    align-items: center;
+    display: flex;
+  }
+
+  .advance {
+    background-color: red;
+    text-align: center;
+    justify-content: center;
+    height: 60px;
+    align-items: center;
+    display: flex;
+  }
+
+  .elite {
+    background-color: orchid;
+    text-align: center;
+    justify-content: center;
+    height: 60px;
+    align-items: center;
+    display: flex;
+  }
+
+  .text {
+    font-size: 30px;
+    font-family: var(--font-family-header);
+  }
+
+  .info-text{
+    font-size: 20px; 
+    text-align: center;
+    margin-top: 7px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .basic-button {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: rgb(179, 255, 0);
+    border-radius: 10px;
+  }
+
+  .intermediate-button {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: orange;
+    border-radius: 10px;
+  }
+
+  .advance-button {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: red;
+    border-radius: 10px;
+  }
+
+  .elite-button {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: orchid;
+    border-radius: 10px;
+  }
+
+
+  .right-column {
+    float: left;
+    width: 25%;
+    margin-left: 300px;
+  }
+
+  img {
+    width: 100%;
+    border-radius: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .left-column {
+    float: left;
+    width: 25%;
+    margin-left: 50px;
+  }
+
+  .info-text2 {
+    text-align: left;
+    font-size: 35px;
+    font-family: var(--font-family-header);
+  }
+
+  .container3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+table,th,td{
+    border: 1px solid;
+    border-collapse: collapse;
+  }
+
+  th,td{
+    width:100px;
+  }

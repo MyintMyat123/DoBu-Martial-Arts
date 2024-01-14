@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+
+@font-face {
+    font-family: myFirstFont;
+    src: url(go3v2.ttf);
+}
+
+:root {
+    --font-family-header: 'Roboto Condensed', sans-serif;
+}
+.label-text {
+    font-size: 100px;
+    font-family: myFirstFont;
+    text-align: center;
+    margin-top: 100px;
+    }
+
+.info-text {
+    font-family: var(--font-family-header);
+    text-align: center;
+    font-size: 50px;
+    margin: auto;}
+
+    .bg {
+        background-image: url("BoDu_pics/celebrate.jpg");
+        height: 90%;
+
+        
+        /* Position and center the image to scale nicely on all screens */
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+        justify-content: center;
+        align-items: center;
+        }
